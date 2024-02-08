@@ -79,4 +79,11 @@ print(z)
 
 Python มีประเภทข้อมูลในตัวตามค่าเริ่มต้นในหมวดหมู่เหล่านี้:
 
-
+1. Text Type:	str -> x = "Hello World"
+2. Numeric Types:	int -> x = 20 , float -> x = 20.5 , complex  -> x = 1j
+3. Sequence Types:	list -> x = ["apple", "banana", "cherry"]	 , tuple -> x = ("apple", "banana", "cherry")	 , range  -> x = range(6)
+4. Mapping Type:	dict -> x = {"name" : "John", "age" : 36}
+5. Set Types:	set -> x = {"apple", "banana", "cherry"} , frozenset -> x = frozenset({"apple", "banana", "cherry"})
+6. Boolean Type:	bool -> x = True
+7. Binary Types:	bytes -> x = b"Hello" , bytearray -> x = bytearray(5) , memoryview -> x = memoryview(bytes(5))
+8. None Type:	NoneType -> x = None
