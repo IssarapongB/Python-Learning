@@ -89,5 +89,7 @@ Python มีประเภทข้อมูลในตัวตามค่�
 8. None Type:	NoneType -> x = None
 
  Ex. show type 
- x = 5
+ 
+   x = 5
+ 
   print(type(x))
