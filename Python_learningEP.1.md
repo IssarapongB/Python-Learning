@@ -87,3 +87,7 @@ Python มีประเภทข้อมูลในตัวตามค่�
 6. Boolean Type:	bool -> x = True
 7. Binary Types:	bytes -> x = b"Hello" , bytearray -> x = bytearray(5) , memoryview -> x = memoryview(bytes(5))
 8. None Type:	NoneType -> x = None
+
+ Ex. show type 
+ x = 5
+  print(type(x))
