@@ -216,3 +216,30 @@ print(myorder.format(quantity, itemno, price))
 
 output : I want to pay 49.95 dollars for 3 pieces of item 567
 
+###### Python - Escape Characters
+
+txt = "We are the so-called \"Vikings\" from the north."
+
+Escape Characters
+
+Code	Result
+
+\'	Single Quote
+
+\\	Backslash
+
+\n	New Line
+
+\r	Carriage Return
+
+\t	Tab
+
+\b	Backspace
+
+\f	Form Feed
+
+\ooo	Octal value
+
+\xhh	Hex value
+
+
