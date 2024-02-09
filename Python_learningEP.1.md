@@ -1,4 +1,4 @@
-# Python Lerning Conclusion EP 1
+# Python Learning Conclusion EP 1
 
 #### Python Getting Started
 
