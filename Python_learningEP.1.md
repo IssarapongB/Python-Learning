@@ -242,7 +242,7 @@ Code	Result
 
 \xhh	Hex value
 
-###### Python - String Methods
+#### Python - String Methods
 
 Method		คำอธิบาย
 
