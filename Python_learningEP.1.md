@@ -93,3 +93,126 @@ Python มีประเภทข้อมูลในตัวตามค่�
    x = 5
  
   print(type(x))
+
+##### Python - Slicing Strings
+
+Get the characters from position 2 to position 5 (not included):
+
+b = "Hello, World!"
+
+print(b[2:5])
+
+output : llo
+
+###### Slice To the End
+
+b = "Hello, World!"
+
+print(b[2:])
+
+output : llo, World!
+
+###### Negative Indexing
+
+b = "Hello, World!"
+
+print(b[-5:-2])
+
+output : orl
+
+###### Python - Modify Strings
+
+###### Upper Case
+
+a = "Hello, World!"
+
+print(a.upper())
+
+output : HELLO, WORLD!
+
+###### Lower Case
+
+a = "Hello, World!"
+
+print(a.lower())
+
+output : hello, world!
+
+###### Remove Whitespace
+
+a = " Hello, World! "
+
+print(a.strip()) # returns "Hello, World!"
+
+###### Python - String Concatenation
+
+a = "Hello"
+
+b = "World"
+
+c = a + b
+
+print(c)
+
+output : HelloWorld
+
+###### To add a space between them, add a " ":
+
+a = "Hello"
+
+b = "World"
+
+c = a + " " + b
+
+print(c)
+
+output : Hello World
+
+###### Python - Format - Strings
+
+Example
+
+age = 36
+
+txt = "My name is John, I am " + age
+
+print(txt)
+
+###### Use the format() method to insert numbers into strings:
+
+Example 1
+
+age = 36
+
+txt = "My name is John, and I am {}"
+
+print(txt.format(age))
+
+Example 2
+
+quantity = 3
+
+itemno = 567
+
+price = 49.95
+
+myorder = "I want {} pieces of item {} for {} dollars."
+
+print(myorder.format(quantity, itemno, price))
+
+output : I want 3 pieces of item 567 for 49.95 dollars.
+
+Example 3
+
+quantity = 3
+
+itemno = 567
+
+price = 49.95
+
+myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
+
+print(myorder.format(quantity, itemno, price))
+
+output : I want to pay 49.95 dollars for 3 pieces of item 567
+
